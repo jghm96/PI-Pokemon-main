@@ -4,7 +4,6 @@ import utils from "../Styles/Utils.module.css"
 import {NavLink} from "react-router-dom"
 import attackImg from "../images/attack.png"
 
-
 export default function PokemonCard({id ,img,name,types,attack}){
   const colorContainer = types.length ===1 ? types[0].name : 'mix';
   return (
