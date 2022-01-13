@@ -11,26 +11,26 @@ export const actions = {
 
 
 export const getPokemons = () => {
-    return  (dispatch) => {
-        return  fetchRequest('http://localhost:3001/pokemons',actions.GETPOKEMONS,dispatch);
+    return  async (dispatch) => {
+        return  await fetchRequest('http://localhost:3001/pokemons',actions.GETPOKEMONS,dispatch);
     }
 }
 
 export const getTypes  = () => {
-    return  (dispatch) => {
-        return  fetchRequest('http://localhost:3001/types',actions.GETYPES,dispatch);
+    return  async(dispatch) => {
+        return  await fetchRequest('http://localhost:3001/types',actions.GETYPES,dispatch);
     }
 }
 
 export const getPokemonForId = (id) => {
-    return  (dispatch) => {
-        return fetchRequest(`http://localhost:3001/pokemons/${id}`,actions.GETPOKEMONFORID,dispatch);
+    return  async (dispatch) => {
+        return await fetchRequest(`http://localhost:3001/pokemons/${id}`,actions.GETPOKEMONFORID,dispatch);
     }
 }
 
 export const getPokemonForName = (name) => {
-    return  (dispatch) => {
-        return  fetchRequest(`http://localhost:3001/pokemons?name=${name}`,actions.GETPOKEMONFORNAME,dispatch);
+    return  async (dispatch) => {
+        return await  fetchRequest(`http://localhost:3001/pokemons?name=${name}`,actions.GETPOKEMONFORNAME,dispatch);
         }
 }
 
