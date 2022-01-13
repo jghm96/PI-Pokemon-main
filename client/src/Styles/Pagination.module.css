@@ -1,0 +1,30 @@
+
+.container{
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        margin-top: 30%;  
+    }     
+}
+
+@media screen and (max-width:520px){
+    .container{
+        margin-top: 8%;
+    }     
+}
+
+.btn{
+  margin-right: 1%;
+  padding: 0.5%;
+  font-size: 120%;
+  background-color: transparent;
+  border: 0;
+}
+
+.active{
+ background-color: #1b145f;
+ color: white;
+}

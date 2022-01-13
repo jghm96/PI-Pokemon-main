@@ -1,0 +1,98 @@
+.card{
+ height: 50vh;
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border-radius: 1%;
+ box-shadow: 4px 4px 8px;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left:0%;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.card:hover {
+   transform: scale(1.05);
+}
+
+.img{
+    width: 55%;
+    height: 55%;
+    top:10%;
+    z-index: 1;
+    position: absolute;
+    object-fit: contain;
+}
+
+.card:hover .img{
+    opacity: 0.3;
+ }
+
+.detailContainer{
+   width: 100%;
+   height: 60%;
+   margin-top: 42%;
+   border-radius:1%;
+   background-color: white;
+}
+
+.navLink{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold ;
+    font-size: 140%;
+    margin-top: 230px;
+
+}
+
+.type{
+    color: white;
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 10%;
+    border: 1px solid black;
+    font-size: 90%;
+    padding: 1.1%;
+}
+
+.attack{
+    margin-top:23%;
+}
+
+@media screen and (max-width:520px){
+    .attack{
+        margin-top: 17%;
+    }     
+}
+
+.imgAttack{
+    height: 20px;
+    width:30px;
+    object-fit: contain;
+}
+.name{
+    z-index: 2;
+    font-size: 110%;
+    color: white;
+}
+.moreInfoDiv{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+}
+.card:hover .moreInfoDiv{
+    z-index: 1;
+}
+

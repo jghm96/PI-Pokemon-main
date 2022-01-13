@@ -1,0 +1,32 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  height: 13vh;
+  margin-bottom: 2.5%;
+  align-items: center;
+  box-shadow: 2px 2px 4px;
+  background-color: #1b145f;
+}
+.links{
+  width: 15%;
+  margin-right: 3.5%;
+}
+
+.link{
+  font-size: 18px;
+  margin-right: 15%;
+  color: white;
+  text-decoration: none;
+  font-family: "montserrat";
+}
+.imgLogo{
+  width: 90%;
+  height: 90%;
+  background-color: #1b145f;
+  object-fit: contain;
+}
+.divLogo{
+  background-color: #1b145f;
+  height: 100%;
+  width: 20%;
+}

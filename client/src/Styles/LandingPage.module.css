@@ -1,0 +1,76 @@
+.img{
+    position: relative;
+    background-image: url(../images/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: fill;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.btn{
+    height: 8%;
+    width:12%;
+    position: absolute;
+    left:19%;
+    top:55%;
+    border-radius: 8%;
+    background-color: red;
+    color: white;
+    font-size: 110%;
+}
+
+
+@media screen and (max-width:980px){
+    .btn{
+       width:15%;
+       left: 40%;
+       top:90%;
+    }     
+}
+
+@media screen and (max-width:520px){
+    .btn{
+    top:80%;
+    }     
+}
+
+
+.divTitle{
+    position: absolute;
+    top: 5%;
+    background-color: transparent;
+    left: 2%;
+    width: 45%;
+    height: 55%;
+    animation: load 2s infinite;
+}
+
+@media screen and (max-width:980px){
+    .divTitle{
+       width:65%;
+       height: 75%;
+       left: 14%;
+       top:34%
+    }     
+}
+
+@media screen and (max-width:520px){
+    .divTitle{
+    top:22%;
+    }     
+}
+
+@keyframes load{
+    50%{
+        transform: scale(0.9);
+    }
+}
+
+.pokemonLogo{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}

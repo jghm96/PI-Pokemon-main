@@ -1,0 +1,128 @@
+.fontFamily{
+  font-family: "montserrat";
+} 
+.normal {
+	background-color: #A8A878;
+}
+
+.fire {
+	background-color: #F08030;
+
+}
+
+.water {
+	background-color: #6890F0;
+	
+}
+.electric {
+	background-color: #F8D030;
+	
+}
+
+.grass {
+
+	background-color: #1e6c00
+
+}
+
+.ice {
+	background-color: #98D8D8;
+	
+}
+
+.ground {
+	background-color: #c59e61;
+	
+}
+
+.flying {
+	background-color: #6699ff;
+	
+}
+
+.ghost {
+	background-color: #705898;
+	
+}
+
+.rock {
+	background-color: #B8A038;
+
+}
+
+.fighting {
+	background-color: #C03028;
+	
+}
+
+.poison {
+	background-color: #A040A0;
+	
+}
+
+.psychic {
+	background-color: #F85888;
+	
+}
+
+.bug {
+	background-color: #59401a;
+
+}
+
+.dark {
+	background-color: #705848;
+	
+}
+
+.steel {
+	background-color: #B8B8D0;
+	
+}
+
+.dragon {
+	background-color: #7038F8;
+	
+}
+.fairy{
+    background-color: #D685AD;
+}
+.mix{
+    background-color: rgb(90, 5, 47);
+}
+
+.containerDetail{
+  font-family: "montserrat";
+  position: relative;
+  width: 42%;
+  min-height: 122vh;
+  max-height: 140vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  color: white;
+  border-radius: 1%;
+}
+
+@media screen and (max-width:768px){
+  .containerDetail{
+      width: 70%;
+  }
+}
+
+@media screen and (max-width:520px){
+  .containerDetail{
+      width: 90%;
+  }   
+}
+
+.detailsInfo{
+  width: 98%;
+  color: black;
+  position: absolute;
+  top: 25%;
+  height:74%;
+  left: 1%;
+  background-color: white;
+  border-radius: 1%;
+}

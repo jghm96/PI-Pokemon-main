@@ -1,0 +1,48 @@
+.input{
+ display: block;
+ margin-top: 1%;
+ margin-bottom: 1%;
+ border: 1px solid black;
+ height: 20px;
+ border-radius: 50px;
+ color: black;
+ background-color: white;
+ text-align: center;
+}
+
+.input::-webkit-input-placeholder{
+  text-align: center;
+  font-size: 10px;
+}
+
+.error{
+ margin-left: 2%;
+ font-size: 10px;
+ color: red;
+}
+
+.divInput{
+   height: 60px;
+    margin-top: 2%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:768px){
+  .divInput{
+      margin-top: 3%;
+  }
+}
+
+@media screen and (max-width:520px){
+  .divInput{
+    margin-top: 4%;      
+  }   
+}
+
+.name{
+    font-size: 14px;
+}

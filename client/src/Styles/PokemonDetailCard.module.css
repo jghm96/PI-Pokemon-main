@@ -1,0 +1,98 @@
+.img{
+    position: absolute;
+    z-index: 1;
+    width: 30%;
+    object-fit: contain;
+    left: 8%;
+    top: 2%;
+}
+
+.type{
+    margin-left: 4%;
+}
+
+.head{
+    position: absolute;
+    width: 30%;
+    color: white;
+    top: 2%;
+    padding: 1%;
+    left: 52%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 1;
+    height: 20%;
+}
+.id{
+  margin-top: -1%;
+}
+.types{
+ margin-top: -1%;
+}
+.ranges{
+margin-top: 3%;
+position: relative;
+}
+
+.imgIcon{
+    height: 20px;
+    width:30px;
+    object-fit: contain;
+}
+
+.range{
+    margin-top: 11%;
+    width: 40%;
+  }
+  
+  @media screen and (max-width:768px){
+    .range{
+        margin-top: 13%;
+    }
+  }
+  
+  @media screen and (max-width:520px){
+    .range{
+      margin-top: 15%;
+        
+    }   
+  }
+  .iconsImg{
+    width: 35px;
+    height: 30px;
+    object-fit: contain;
+  }
+
+  .detailDiv{
+   position: relative;
+   cursor: pointer;
+  }
+
+  .detailSpan{
+  position: absolute;
+  top:40%;
+  background-color: rgb(90, 5, 47);
+  padding: 1.5%;
+  color: white;
+  border-radius: 7px;
+  transition: 0.8s;
+  opacity: 0;
+ }
+
+ .detailSpan::before{
+   content: "";
+   position: absolute;
+   border: 15px solid;
+   top:80%;
+   left: 4%;
+   border-color: rgb(90, 5, 47) #0000 #0000 #0000;
+ }
+
+ .detailDiv:hover .detailSpan{
+   top:6%;
+   visibility:visible;
+   opacity: 1;
+   z-index: 2;
+ }
