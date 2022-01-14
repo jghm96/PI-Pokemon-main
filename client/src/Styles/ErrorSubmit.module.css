@@ -20,6 +20,14 @@
     background-color: #1b145f;
 }
 
+
+@media screen and (max-width:520px){
+    .divError{
+        width: 40%;
+        left: 28%;
+    }     
+}
+
 @media screen and (max-width:520px){
     .infoError{
         margin-top: 20%;
