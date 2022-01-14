@@ -10,6 +10,7 @@ import TypesForm from "./TypesForm"
 import pokebola from "../../images/pokebola.png"
 import ImageForm from "./ImageForm"
 import { validateForm ,validateSubmit} from "../../Utils/ValidationForm";
+import ErrorSubmit from "./ErrorSubmit";
 
 const initialStateError = {
   name:"",
@@ -30,6 +31,7 @@ const initialState = {
 export default function CreatePokemon(){
   const [stateForm, setStateForm] = React.useState(initialState);
   const [errorForm, setErrorForm] = React.useState(initialStateError);
+  const [errorSubmitForm,seterrorSubmitForm] = React.useState({});
   const dispatch = useDispatch();
   const {types} = useSelector(state => state);
   const navigate = useNavigate();
@@ -55,7 +57,7 @@ export default function CreatePokemon(){
     e.preventDefault();
     const validateError = validateSubmit(errorForm,stateForm);
     if(validateError !== "")
-      alert(validateError);
+      seterrorSubmitForm({error:validateError})
     else{
       createPokemon(stateForm);
       navigate("../home");
@@ -65,7 +67,8 @@ export default function CreatePokemon(){
   return (
     <div className={styleCreate.container}>
       <NavBar />
-      <form className={`${utils.containerDetail} ${utils["mix"]}`} onSubmit={submit}>
+      {errorSubmitForm.error && <ErrorSubmit errorSubmitForm={errorSubmitForm} seterrorSubmitForm = {seterrorSubmitForm}/>}
+      <form className={`${utils.containerDetail} ${utils["mix"]} ${errorSubmitForm.error && styleCreate.errorSubmit}`} onSubmit={submit}>
         <ImageForm stateForm = {stateForm} changeStateForm = {changeStateForm}/>
         <div className={styleCreate.head}>
           <h1>CREATE</h1>

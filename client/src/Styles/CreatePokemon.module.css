@@ -34,3 +34,7 @@
     left: 44%;
     border-radius: 10%;
 }
+
+.errorSubmit{
+    opacity: 0.3;
+}

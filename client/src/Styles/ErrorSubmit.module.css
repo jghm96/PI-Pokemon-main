@@ -1,0 +1,30 @@
+.divError{
+    background-color:white;
+    position: absolute;
+    height: 20%;
+    width:25%;
+    top:60%;
+    left:38%;
+    z-index: 2;
+    border: 0.5px solid black;
+    border: 3px solid black;
+}
+
+.infoError{
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+.btn{
+
+    padding: 1%;
+    color: white;
+    background-color: #1b145f;
+}
+
+@media screen and (max-width:520px){
+    .infoError{
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }     
+}
+
