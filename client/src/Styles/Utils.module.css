@@ -92,7 +92,7 @@
 }
 
 .containerDetail{
-  font-family: "montserrat";
+ font-family:sans-serif;
   position: relative;
   width: 42%;
   min-height: 122vh;
@@ -120,8 +120,8 @@
   width: 98%;
   color: black;
   position: absolute;
-  top: 25%;
-  height:74%;
+  top: 23%;
+  height:76%;
   left: 1%;
   background-color: white;
   border-radius: 1%;

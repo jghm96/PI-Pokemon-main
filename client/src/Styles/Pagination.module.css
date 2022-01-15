@@ -6,7 +6,7 @@
 
 @media screen and (max-width:768px){
     .container{
-        margin-top: 30%;  
+        margin-top: 32%;  
     }     
 }
 
@@ -19,7 +19,7 @@
 .btn{
   margin-right: 1%;
   padding: 0.5%;
-  font-size: 120%;
+  font-size: 135%;
   background-color: transparent;
   border: 0;
 }
