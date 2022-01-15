@@ -61,17 +61,17 @@
     margin-left: 2%;
     border-radius: 10%;
     border: 1px solid black;
-    font-size: 90%;
+    font-size: 95%;
     padding: 1.2%;
 }
 
 .attack{
-    margin-top:23%;
+    margin-top:22%;
 }
 
 @media screen and (max-width:520px){
     .attack{
-        margin-top: 17%;
+        margin-top: 15%;
     }     
 }
 
@@ -82,7 +82,7 @@
 }
 .name{
     z-index: 2;
-    font-size: 110%;
+    font-size: 125%;
     color: white;
 }
 .moreInfoDiv{

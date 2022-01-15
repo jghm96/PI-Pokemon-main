@@ -13,11 +13,11 @@
 }
 
 .link{
-  font-size: 18px;
+  font-size: 20px;
   margin-right: 15%;
   color: white;
   text-decoration: none;
- font-family:sans-serif;;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .imgLogo{
   width: 90%;

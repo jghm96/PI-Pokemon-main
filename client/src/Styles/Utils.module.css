@@ -1,5 +1,5 @@
 .fontFamily{
-  font-family: "montserrat";
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 } 
 .normal {
 	background-color: #A8A878;
@@ -92,7 +92,7 @@
 }
 
 .containerDetail{
- font-family:sans-serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   position: relative;
   width: 42%;
   min-height: 122vh;

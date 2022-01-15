@@ -19,6 +19,7 @@
     padding: 1%;
     left: 52%;
     display: flex;
+    font-size: 105%;
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
@@ -27,6 +28,7 @@
 }
 .id{
   margin-top: -1%;
+
 }
 .types{
  margin-top: -1%;
