@@ -72,7 +72,7 @@ align-items: flex-end;
 
 @media screen and (max-width:768px){
     .containerSelects{
-        margin-top: 2%;
+        margin-top: 3%;
         margin-left: 8%;
         margin-bottom: 2%;
     }     
