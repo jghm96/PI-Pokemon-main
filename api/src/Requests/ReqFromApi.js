@@ -1,8 +1,8 @@
 const axios = require('axios');
 
 
-const getAllPokemonsFromApi = async () => {
-    
+
+const getAllPokemonsFromApi =  async () => {
     try{
         let pokemonsArray = [];
         let pokemons = await axios.get('https://pokeapi.co/api/v2/pokemon');
@@ -23,7 +23,7 @@ const detailsPokemon = (pokemon) => {
         id:pokemon.id,
         img:pokemon.sprites.other.dream_world.front_default,
         types:pokemon.types.map(typeOf => {return {name:typeOf.type.name}}),
-        attack:pokemon.stats[1].base_stat
+        attack:pokemon.stats[1].base_stat,
        }
 }
 

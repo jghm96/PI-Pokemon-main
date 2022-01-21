@@ -8,7 +8,7 @@ pokemons.get("/", async(req,res) => {
    let {name} = req.query
 
    if (!name)
-     res.json((await getAllPokemonsFromApi()).concat(await getPokemonsFromDb()))
+    res.json((await getAllPokemonsFromApi()).concat(await getPokemonsFromDb()))
    else{
        let pokemons = (await getAllPokemonsFromApiForName(name)).concat(await getPokemonsFromDb(name))
        pokemons.length > 0 ? res.json(pokemons) : res.status(404).send({error:"not found"}) 
