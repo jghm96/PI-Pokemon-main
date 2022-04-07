@@ -11,6 +11,7 @@ const initialStateFilters = {
     type:"All",
     created:"all sources"
 }
+//cambio
 const orderBy = ["A-Z","Z-A","more attack","less attack"];
 const created = ["all sources","api","database"]
 
