@@ -11,7 +11,7 @@ import Loading from "./Loading";
 import NotFound from "./NotFound";
 const POKEMONSFORPAGE = 12 ;
 
-
+//home
 export default function Home(){
   const dispatch = useDispatch();
   const {pokemonsFiltered,types,loading} = useSelector(state => state);
